@@ -21,11 +21,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `http://localhost:${config.PORT}/api`, // Localhost URL
-        description: "Local Development Environment"
-      },
-      {
-        url: `https://blogpostbackend-e1f0.onrender.com`, // Deployed URL (replace with your actual deployed URL)
+        url: `https://blogpostbackend-e1f0.onrender.com/api`, // Deployed URL (replace with your actual deployed URL)
         description: "Production Environment"
       }
     ],
