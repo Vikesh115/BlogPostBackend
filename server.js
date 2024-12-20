@@ -25,7 +25,7 @@ const swaggerOptions = {
         description: "Local Development Environment"
       },
       {
-        url: `https://your-deployed-api-url.com/api`, // Deployed URL (replace with your actual deployed URL)
+        url: `https://blogpostbackend-e1f0.onrender.com`, // Deployed URL (replace with your actual deployed URL)
         description: "Production Environment"
       }
     ],
